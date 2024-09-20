@@ -1,0 +1,50 @@
+# Ignore data files in geo_data directory
+src/geo_data/*
+geo_data/*
+.Trash-1000/*
+src/.Trash-1000/*
+
+# Ignore Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.so
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environment directories
+venv/
+env/
+.venv/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore environment variable files
+*.env
+*.env.*
+
+# Ignore log files
+*.log
+
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# Ignore config files (optional)
+*.config
+*.cfg
+
+# Ignore compressed files (optional)
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Ignore any other unnecessary files
+.idea/
+.vscode/
